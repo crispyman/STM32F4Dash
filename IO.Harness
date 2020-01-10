@@ -1,0 +1,2 @@
+DAC Inputs=Throttle pot,Regen Pot
+Digital_Inputs=Main Power,Fwd/Rev,Motor_On,Hazards,Extra,Power Off,Brake Light Pressure Switch,Power/Eco Mode

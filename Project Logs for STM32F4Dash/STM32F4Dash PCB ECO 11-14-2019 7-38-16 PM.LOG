@@ -1,0 +1,45 @@
+Removed Pin From Net: NetName=VCC_MCU Pin=P1-1
+Removed Pin From Net: NetName=NetP1_2 Pin=P1-2
+Removed Pin From Net: NetName=NetP1_4 Pin=P1-4
+Removed Pin From Net: NetName=NetP1_6 Pin=P1-6
+Removed Pin From Net: NetName=GND Pin=P1-9
+Removed Pin From Net: NetName=NetC3_1 Pin=P1-10
+Removed Pin From Net: NetName=NetP1_2 Pin=U1-72
+Removed Pin From Net: NetName=NetP1_6 Pin=U1-89
+Removed Member From Class: ClassName=Communications Member=P1
+Added Component: Designator=J?(SMTC-SSW-104-02-X-D)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.samtec.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.samtec.com/documents/webfiles/pdf/SSW_TH.PDF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "Package Specification"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.samtec.com/documents/webfiles/cpdf/SSW-1XX-XX-XXX-X-XX-XXX-XX-MKT.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "F-214"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Samtec"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Through-hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Assembly, Socket Strip .016 X .031 Tail"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SSW-104-02-X-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "CA, 6/1987"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "SSW-104-02-T-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Range"; Value = "-55 to 105 degC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetP1_6 Pin=J?-1
+Added Pin To Net: NetName=VCC_MCU Pin=J?-2
+Added Pin To Net: NetName=NetP1_4 Pin=J?-3
+Added Pin To Net: NetName=NetP1_2 Pin=J?-5
+Added Pin To Net: NetName=NetC3_1 Pin=J?-7
+Added Pin To Net: NetName=GND Pin=J?-8
+Added Pin To Net: NetName=NetP1_6 Pin=U1-72
+Added Pin To Net: NetName=NetP1_2 Pin=U1-89
+Change Net Name : Old Net Name=NetP1_2 New Net Name=NetJ?_5
+Change Net Name : Old Net Name=NetP1_4 New Net Name=NetJ?_3
+Change Net Name : Old Net Name=NetP1_6 New Net Name=NetJ?_1
+Added Member To Class: ClassName=Communications Member=Component J? SSW-104-02-T-D
+Added Room: Name=Communications
+Added Room: Name=IO
+Added Room: Name=MCU
+Added Room: Name=Power_Supply
+Added Room: Name=User_LEDs

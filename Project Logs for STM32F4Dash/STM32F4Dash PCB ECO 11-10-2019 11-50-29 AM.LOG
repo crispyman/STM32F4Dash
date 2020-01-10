@@ -1,0 +1,17 @@
+Added Component: Designator=C1(Yageo_CC0805-0.85_IPC_A)
+Add component. Clean all parameters for all variants
+Added Component: Designator=C2(Yageo_CC0805-0.85_IPC_A)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C1-1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Member To Class: ClassName=MCU Member=Component C1 2.2uF
+Added Member To Class: ClassName=MCU Member=Component C2 2.2uF
+Added Member To Class: ClassName=MCU Member=Component SW1 TL3301AF260QG
+Added Member To Class: ClassName=MCU Member=Component U1 STM32F407VGT6
+Added Room: Name=Communications
+Added Room: Name=IO
+Added Room: Name=MCU
+Added Room: Name=Power_Supply
+Added Room: Name=User_LEDs

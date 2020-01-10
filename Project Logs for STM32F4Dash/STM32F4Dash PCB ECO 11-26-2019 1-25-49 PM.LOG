@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=+12 Pin=J1-2
+Removed Pin From Net: NetName=NetJ3_9 Pin=U3-1
+Removed Pin From Net: NetName=VCC_MCU Pin=U3-3
+Removed Pin From Net: NetName=NetR4_2 Pin=U3-4
+Change Component Footprint: Designator=U3 Old Footprint=Microchip_OT_0 New Footprint=DBV0005A_L
+Change Component Comment : Designator=U3 Old Comment=MCP6001T-I/OT New Comment=LM321MFX
+Change component parameters: Designator = "U3"; Footprint = "DBV0005A_L"; UniqueID = "\FHKLMBMD"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Code_IPC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEDEC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Code_JEITA"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM321&fileType=pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "CompType"; Value = "Amplifiers"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "High-Reliability"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "Molded SOT-23, .115 x .063 x .040 in Body, 5 Lead, .0375 in Pitch"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "DBV0005A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageTopMarking"; Value = "A63A*XTT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PinCount"; Value = "5"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PowerWise"; Value = "N"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "N"; VariantName = "[No Variations]"
+Added Component: Designator=F1(Keystone_3557-2_0)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VCC_MCU Pin=C11-2
+Added Pin To Net: NetName=+12 Pin=F1-2
+Added Pin To Net: NetName=+12 Pin=F1-4
+Added Pin To Net: NetName=VCC_MCU Pin=U1-21
+Added Pin To Net: NetName=VCC_MCU Pin=U1-22
+Added Pin To Net: NetName=VCC_MCU Pin=U3-1
+Added Pin To Net: NetName=NetR4_2 Pin=U3-3
+Added Pin To Net: NetName=NetJ3_9 Pin=U3-4
+Change Net Name : Old Net Name=NetJ?_1 New Net Name=NetJ4_1
+Change Net Name : Old Net Name=NetJ?_3 New Net Name=NetJ4_3
+Change Net Name : Old Net Name=NetJ?_5 New Net Name=NetJ4_5
+Added Pin To Net: NetName=NetF1_1 Pin=F1-1
+Added Pin To Net: NetName=NetF1_1 Pin=F1-3
+Added Pin To Net: NetName=NetF1_1 Pin=J1-2
+Added Net: Name=NetF1_1
+Added Member To Class: ClassName=Communications Member=Component F1 3557-2
+Added Member To Class: ClassName=IO Member=Component U3 LM321MFX
+Added Room: Name=Communications
+Added Room: Name=IO
+Added Room: Name=MCU
+Added Room: Name=Power_Supply
+Added Room: Name=User_LEDs

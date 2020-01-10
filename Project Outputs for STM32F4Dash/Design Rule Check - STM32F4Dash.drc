@@ -1,0 +1,67 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\SVT\Documents\AltiumProjects\STM32F4Dash\STM32F4Dash.PcbDoc
+Date     : 11/26/2019
+Time     : 1:54:44 PM
+
+Processing Rule : Clearance Constraint (Gap=0.2mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net VCC_MCU Between Pad U1-21(45.754mm,37.439mm) on Top Layer And Pad U1-19(45.754mm,38.439mm) on Top Layer 
+Rule Violations :1
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=5mm) (Preferred=1mm) (InNetClass('Power'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.2mm) (Max=2mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J1-1(77.392mm,77.781mm) on Multi-Layer And Via (77.392mm,77.781mm) from Top Layer to Bottom Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J1-2(77.392mm,81.317mm) on Multi-Layer And Via (77.392mm,81.317mm) from Top Layer to Bottom Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J1-3(73.856mm,81.317mm) on Multi-Layer And Via (73.856mm,81.317mm) from Top Layer to Bottom Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J1-4(73.856mm,77.781mm) on Multi-Layer And Via (73.856mm,77.781mm) from Top Layer to Bottom Layer Pad/Via Touching Holes
+   Violation between Hole To Hole Clearance Constraint: (Collision < 0.254mm) Between Pad J1-5(75.624mm,79.549mm) on Multi-Layer And Via (75.624mm,79.549mm) from Top Layer to Bottom Layer Pad/Via Touching Holes
+Rule Violations :5
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (HasFootprint('DSG8-1600X900TP')),(HasFootprint('DSG8-1600X900TP'))
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U3-1(10.224mm,25.518mm) on Top Layer And Pad U3-2(10.224mm,24.568mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.197mm < 0.254mm) Between Pad U3-2(10.224mm,24.568mm) on Top Layer And Pad U3-3(10.224mm,23.618mm) on Top Layer [Top Solder] Mask Sliver [0.197mm]
+Rule Violations :2
+
+Processing Rule : Silk To Solder Mask (Clearance=0mm) (HasFootprint('DSG8-1600X900TP')),(HasFootprint('DSG8-1600X900TP'))
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+   Violation between Net Antennae: Via (67.075mm,60.7mm) from Top Layer to Bottom Layer 
+   Violation between Net Antennae: Via (84.2mm,57mm) from Top Layer to Bottom Layer 
+Rule Violations :2
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 10
+Waived Violations : 0
+Time Elapsed        : 00:00:00

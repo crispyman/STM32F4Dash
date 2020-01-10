@@ -1,0 +1,6 @@
+Added Component: Designator=C13(Kemet_C0603_IPC_A)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=NetC13_1 Pin=C13-2
+Change Net Name : Old Net Name=NetC13_1 New Net Name=NetC13_2
+Added Member To Class: ClassName=IO Member=Component C13 100nF

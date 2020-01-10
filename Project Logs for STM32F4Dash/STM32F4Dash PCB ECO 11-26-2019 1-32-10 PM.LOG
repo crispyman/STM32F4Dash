@@ -1,0 +1,6 @@
+Added Member To Class: ClassName=Power Member=Wire GND
+Added Room: Name=Communications
+Added Room: Name=IO
+Added Room: Name=MCU
+Added Room: Name=Power_Supply
+Added Room: Name=User_LEDs

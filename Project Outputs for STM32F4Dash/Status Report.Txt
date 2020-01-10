@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [STM32F4Dash.PrjPcb]
+   Generated File[STM32F4Dash.TXT]
+   Generated File[STM32F4Dash.LDP]
+   Generated File[STM32F4Dash.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 1:56:32 PM On 11/26/2019

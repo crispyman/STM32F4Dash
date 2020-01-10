@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=C12 Old Footprint=CAPC1608X87X35NL15T15 New Footprint=Kemet_C0603_IPC_A
+Change Component Comment : Designator=C12 Old Comment=0.1uF New Comment=100nF
+Change component parameters: Designator = "C12"; Footprint = "Kemet_C0603_IPC_A"; UniqueID = "\GLOENTJI"
+Change component parameters. Clean all parameters for all variants
+Added Pin To Net: NetName=+12 Pin=D1-1
+Added Pin To Net: NetName=GND Pin=D1-2
